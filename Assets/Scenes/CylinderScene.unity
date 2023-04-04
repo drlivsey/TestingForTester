@@ -2656,7 +2656,6 @@ GameObject:
   - component: {fileID: 989725612}
   - component: {fileID: 989725611}
   - component: {fileID: 989725610}
-  - component: {fileID: 989725609}
   m_Layer: 5
   m_Name: 1
   m_TagString: Untagged
@@ -2685,29 +2684,6 @@ RectTransform:
   m_AnchoredPosition: {x: -32.8, y: 0}
   m_SizeDelta: {x: 30, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &989725609
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 989725607}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 65c05d97873aef949a91e4cc078d9383, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_sceneName: CubeScene
-  m_loadingMode: 0
-  m_onLoadingBegin:
-    m_PersistentCalls:
-      m_Calls: []
-  m_onLoadingUpdate:
-    m_PersistentCalls:
-      m_Calls: []
-  m_onLoadingComplete:
-    m_PersistentCalls:
-      m_Calls: []
 --- !u!114 &989725610
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2751,19 +2727,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 989725611}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 989725609}
-        m_TargetAssemblyTypeName: AtomicCore.Utilities.ScenesLoader, Assembly-CSharp
-        m_MethodName: LoadScene
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
 --- !u!114 &989725611
 MonoBehaviour:
   m_ObjectHideFlags: 0
